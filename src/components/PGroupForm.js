@@ -10,7 +10,7 @@ const PGroupForm = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
     if (!inputVal) {
-      alert("Enter product group");
+      alert("Enter product group name");
       return;
     }
 

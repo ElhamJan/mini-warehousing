@@ -7,14 +7,16 @@
   padding: 10px;
   color: #583e26;
 }
-.App h2 {
-  margin-bottom: 10px;
-}
 .formControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 30rem;
   padding: 10px 20px;
-  border: 1px solid #a78b71;
+  border: 1px solid #fff;
   border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
 }
 .input {
   width: 15rem;
@@ -32,4 +34,24 @@
   background-color: #ec9704;
   color: #fff;
   border-radius: 5px;
+  font-weight: bold;
+}
+.select {
+  width: 15rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.product-list {
+  margin-top: 20px;
+}
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list table td,
+th {
+  border: 3px solid #fff;
+  padding: 8px 10px;
+  text-align: center;
 }
