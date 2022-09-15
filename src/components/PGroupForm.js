@@ -29,7 +29,7 @@ const PGroupForm = (props) => {
           placeholder="Product group name..."
           value={inputVal}
         />
-        <button className="btn" type="submit">
+        <button className="btn p-group-btn" type="submit">
           Add
         </button>
       </fieldset>
